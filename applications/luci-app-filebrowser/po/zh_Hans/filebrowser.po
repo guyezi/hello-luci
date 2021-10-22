@@ -1,0 +1,374 @@
+#luci-app-filebrowser/luasrc/controller/filebrowser.lua
+#msgid "Base Setting"
+#msgstr "基础设置"
+
+#msgid "Log"
+#msgstr "日志"
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+#luci-app-filebrowser/luasrc/controller/filebrowser.lua
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "status"
+msgstr "状态"
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+#luci-app-filebrowser/luasrc/controller/filebrowser.lua
+msgid "filebrowser"
+msgstr "文件浏览器"
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+#luci-app-filebrowser/luasrc/controller/filebrowser.lua
+msgid "File Browser"
+msgstr "文件浏览器"
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+#luci-app-filebrowser/luasrc/controller/filebrowser.lua
+msgid "FileBrowser"
+msgstr "文件浏览器"
+
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "File browser is a private cloud file manager based on go compiler, which makes it easy for you to manage files on your device."
+msgstr "文件浏览器是一个基于Go编译的私有云文件管理器，使你轻松管理设备上的文件."
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+msgid "RUNNING"
+msgstr "运行中"
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+msgid "NOT RUNNING"
+msgstr "未运行"
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+msgid "OPEN Browser Management"
+msgstr "打开管理界面"
+
+#luci-app-filebrowser/luasrc/view/filebrowser/filebrowser_status.htm
+msgid "Collecting data..."
+msgstr "获取数据中..."
+
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "Enable"
+msgstr "启用"
+
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "Browser Management Port"
+msgstr "网页管理端口"
+
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "Listening Address"
+msgstr "监听地址"
+
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "Local"
+msgstr "本机地址"
+
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "Lan"
+msgstr "局域网"
+
+#luci-app-filebrowser/luasrc/model/cbi/filebrowser.lua
+msgid "Wan"
+msgstr "广域网"
+
+#msgid "Update"
+#msgstr "更新"
+#button change
+
+#msgid "Update core version"
+#msgstr "更新核心版本"
+
+#msgid "Check..."
+#msgstr "检查中..."
+
+#msgid "Updated"
+#msgstr "已更新"
+
+#button hide
+#msgid "Force update"
+#msgstr "强制更新"
+
+msgid "Open Directory"
+msgstr "工作目录"
+#
+#msgid "core version:"
+#msgstr "核心版本:"
+
+#description change
+msgid "Database Directory"
+msgstr "数据库目录"
+
+#msgid "no core"
+#msgstr "没有核心"
+#
+msgid "Ordinary users are not allowed to change at will."
+msgstr "普通用户请勿随意更改."
+
+#inlist
+msgid "none"
+msgstr "无"
+
+msgid "Database Name"
+msgstr "数据库名"
+
+msgid "The default value is the root directory."
+msgstr "默认值为root目录."
+
+msgid "Root path"
+msgstr "指向路径"
+
+msgid "File Browser"
+msgstr "文件浏览器"
+
+msgid "File explorer is software that creates your own cloud that you can install on a server, point it to a path, and then access your files through a beautiful web interface. You have many features available!"
+msgstr "文件浏览器是一种创建你自己的云的软件，你可以在服务器上安装它，将它指向一个路径，然后通过一个漂亮的web界面访问你的文件。您有许多可用的特性！"
+
+msgid "RUNNING"
+msgstr "运行中"
+
+msgid "NOT RUNNING"
+msgstr "未运行"
+
+msgid "Enter interface"
+msgstr "进入界面"
+
+msgid "Global Settings"
+msgstr "全局设置"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Listen address"
+msgstr "监听地址"
+
+msgid "Listen port"
+msgstr "监听端口"
+
+msgid "Initial username"
+msgstr "初始账户"
+
+msgid "Initial password"
+msgstr "初始密码"
+
+msgid "SSL cert"
+msgstr "SSL 证书"
+
+msgid "SSL key"
+msgstr "SSL 私钥"
+
+msgid "Database path"
+msgstr "数据库路径"
+
+msgid "Root path"
+msgstr "指向路径"
+
+msgid "Point to a path to access your files in the web interface, default is /root"
+msgstr "指向一个路径，可在web界面访问你的文件，默认为 /root"
+
+msgid "Executable directory"
+msgstr "可执行文件存放目录"
+
+msgid "The file size is large, requiring at least 32M space. It is recommended to insert a usb flash drive or hard disk, or use it in the tmp directory<br />For example, /mnt/sda1<br />For example, /tmp"
+msgstr "文件较大，至少需要32M空间。建议插入U盘或硬盘，或放入tmp目录里使用<br />例如：/mnt/sda1<br />例如：/tmp"
+
+msgid "Manually download"
+msgstr "手动下载"
+
+msgid "Make sure you have enough space. <br /><font style='color:red'>Be sure to fill out the executable storage directory the first time you run it, and then save the application. Then manually download, otherwise can not use!</font>"
+msgstr "请确保具有足够的空间。<br /><font style='color:red'>第一次运行务必填好项目存放目录，然后保存应用。再手动下载，否则无法使用！</font>"
+
+msgid "Logs"
+msgstr "日志"
+
+msgid "Clear logs"
+msgstr "清空日志"
+
+msgid "It is the latest version"
+msgstr "已是最新版本"
+
+msgid "Download successful"
+msgstr "下载成功"
+
+msgid "Click to download"
+msgstr "点击下载"
+
+msgid "Updating..."
+msgstr "更新中"
+
+msgid "Unexpected error"
+msgstr "意外错误"
+
+msgid "Download, are you sure to close?"
+msgstr "正在下载，你确认要关闭吗？"
+
+msgid "Downloading..."
+msgstr "下载中"
+
+msgid "Unpacking..."
+msgstr "解压中"
+
+msgid "Moving..."
+msgstr "移动中"
+
+msgid "The latest version:"
+msgstr "最新版本："
+
+msgid "Can't determine ARCH, or ARCH not supported."
+msgstr "无法确认ARCH架构，或是不支持。"
+
+msgid "Get remote version info failed."
+msgstr "获取远程版本信息失败。"
+
+msgid "New version found, but failed to get new version download url."
+msgstr "发现新版本，但未能获得新版本的下载地址。"
+
+msgid "Download url is required."
+msgstr "请指定下载地址。"
+
+msgid "File download failed or timed out: %s"
+msgstr "文件下载失败或超时：%s"
+
+msgid "File path required."
+msgstr "请指定文件路径。"
+
+msgid "Can't find client in file: %s"
+msgstr "无法在文件中找到客户端：%s"
+
+msgid "Client file is required."
+msgstr "请指定客户端文件。"
+
+msgid "The client file is not suitable for current device."
+msgstr "客户端文件不适合当前设备。"
+
+msgid "Can't move new file to path: %s"
+msgstr "无法移动新文件到：%s"
+
+#msgid "Bin Path"
+#msgstr "执行文件路径"
+
+#msgid "FileBrowser Bin path if no bin will auto download"
+#msgstr "FileBrowser 执行文件路径 如果没有执行文件将自动下载"
+
+#msgid "use upx to compress bin after download"
+#msgstr "下载后使用upx压缩执行文件"
+#inlist
+#msgid "compress faster"
+#msgstr "快速压缩"
+
+#msgid "compress better"
+#msgstr "更好的压缩"
+
+#msgid "compress best(can be slow for big files)"
+#msgstr "最好的压缩(大文件可能慢)"
+
+#msgid "try all available compression methods & filters [slow]"
+#msgstr "尝试所有可能的压缩方法和过滤器[慢]"
+
+#msgid "try even more compression variants [very slow]"
+#msgstr "尝试更多变体压缩手段[很慢]"
+
+#msgid "bin use less space,but may have compatibility issues"
+#msgstr "减小执行文件空间占用，但是可能压缩后有兼容性问题"
+#
+#msgid "Config Path"
+#msgstr "配置文件路径"
+
+#msgid "FileBrowser config path"
+#msgstr "FileBrowser 配置文件路径"
+
+#msgid "Work dir"
+#msgstr "工作目录"
+
+
+#msgid "Runtime log file"
+#msgstr "运行日志"
+
+#msgid "Change browser management password"
+#msgstr "改变网页登录密码"
+
+#msgid "loading..."
+#msgstr "载入中"
+
+#msgid "Please save/apply"
+#msgstr "请提交"
+
+#msgid "is empty"
+#msgstr "为空"
+
+#msgid "Keep files when system upgrade"
+#msgstr "系统升级时保留文件"
+#checkbox
+#msgid "core bin"
+#msgstr "核心执行文件"
+
+#msgid "config file"
+#msgstr "配置文件"
+
+#msgid "log file"
+#msgstr "日志文件"
+
+
+#
+#msgid "On boot when network ok restart"
+#msgstr "开机后网络准备好时重启"
+
+#msgid "Backup workdir files when shutdown"
+#msgstr "在关机时备份工作目录文件"
+
+#msgid "Will be restore when workdir/data is empty"
+#msgstr "在工作目录/data为空的时候恢复"
+
+#msgid "Backup workdir path"
+#msgstr "工作目录备份路径"
+
+#msgid "Crontab task"
+#msgstr "计划任务"
+
+#msgid "Auto update core"
+#msgstr "自动升级核心"
+
+#msgid "Download links for update"
+#msgstr "升级用的下载链接"
+
+#
+#msgid "reverse"
+#msgstr "逆序"
+
+#msgid "localtime"
+#msgstr "本地时间"
+
+#msgid "Please add log path in config to enable log"
+#msgstr "请在设置里填写日志路径以启用日志"
+
+#msgid "dellog"
+#msgstr "删除日志"
+
+#msgid "download log"
+#msgstr "下载日志"
+
+#
+#msgid "Use template"
+#msgstr "使用模板"
+#hide button
+#msgid "Reload Config"
+#msgstr "重新载入配置"
+
+#msgid "WARNING!!! no bin found apply config will not be test"
+#msgstr "警告！！！未找到执行文件，提交配置将不会进行校验"
+#unused
+#msgid "Change browser management username"
+#msgstr "改变网页登录用户名"
+
+#msgid "Username"
+#msgstr "用户名"
+
+#msgid "Check Config"
+#msgstr "检查配置"
+
+#msgid "unknown"
+#msgstr "未知"
+
+#msgid "Keep database when system upgrade"
+#msgstr "系统升级时保留数据"
+
+#msgid "Boot delay until network ok"
+#msgstr "开机时直到网络准备好再启动"
