@@ -5,15 +5,15 @@
  *
  *  Licensed to the public under the Apache License 2.0
  */
- 
- 
+
+
 .cbi-button-up,
 .cbi-button-down,
 .cbi-value-helpicon,
 .showSide,
-.main > .loading > span {
-    font-family: "Segoe UI","Lucida Grande","Helvetica Neue" !important;
-    font-size:10px;
+.main>.loading>span {
+    font-family: "Segoe UI", "Lucida Grande", "Helvetica Neue" !important;
+    font-size: 10px;
     speak: none;
     font-style: normal !important;
     font-weight: normal !important;
@@ -31,12 +31,23 @@
     box-sizing: border-box;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: "Segoe UI","Lucida Grande","Helvetica Neue", 'Microsoft Yahei' !important;
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", "Lucida Grande", "Helvetica Neue", 'Microsoft Yahei' !important;
     font-weight: 600;
     line-height: 1.1;
     color: inherit;
-    clear:both;
+    clear: both;
 }
 
 
@@ -45,47 +56,50 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-html, body {
+html,
+body {
     margin: 0px;
     padding: 0px;
     height: 100%;
-    font-family: "Segoe UI","Lucida Grande","Helvetica Neue", 'Microsoft Yahei' !important;
-    font-size:14px;
+    font-family: "Segoe UI", "Lucida Grande", "Helvetica Neue", 'Microsoft Yahei' !important;
+    font-size: 14px;
     line-height: 150%;
     /*color:#76838f;*/
-	color:rgb(132,119,116);
+    color: rgb(132, 119, 116);
     /*min-width: 960px;*/
 }
 
 body div {
-    line-height:150%;
+    line-height: 150%;
 }
 
 
 
 a {
-    color: rgb(22,117,161);
+    color: rgb(22, 117, 161);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(210,54,0);
+    color: rgb(210, 54, 0);
     text-decoration: underline;
 }
 
-.nav-brand > a:hover{
+.nav-brand>a:hover {
     color: #fff;
     text-decoration: none;
 }
 
-.header-logo{
-	height:80px;
-	background-color:rgb(254,251,245); 
-	padding:0px;
+.header-logo {
+    height: 80px;
+    background-color: rgb(254, 251, 245);
+    padding: 0px;
 }
 
 
-em {font-style:normal !important;}
+em {
+    font-style: normal !important;
+}
 
 select {
     padding: 0.36rem 0.8rem;
@@ -115,28 +129,28 @@ input {
 
 select:not([multiple="multiple"]):focus,
 input:focus {
-    border-color: rgb(22,117,161);
-	box-shadow:0 0 6px rgb(22,117,161);
-	-webkit-box-shadow:0 0 6px rgb(22,117,161);
-	-moz-box-shadow:0 0 6px rgb(22,117,161);
+    border-color: rgb(22, 117, 161);
+    box-shadow: 0 0 6px rgb(22, 117, 161);
+    -webkit-box-shadow: 0 0 6px rgb(22, 117, 161);
+    -moz-box-shadow: 0 0 6px rgb(22, 117, 161);
 }
 
 select[multiple="multiple"] {
     height: auto;
 }
 
-input[name="free"]{
-	float:right;
-	margin-bottom: 10px;
+input[name="free"] {
+    float: right;
+    margin-bottom: 10px;
 }
 
-input[name="zero"]{
-	margin-top: 10px;
+input[name="zero"] {
+    margin-top: 10px;
 }
 
-input[name="restart"]{
-	margin-top: 10px;
-	margin-right: 15px;
+input[name="restart"] {
+    margin-top: 10px;
+    margin-right: 15px;
 }
 
 code {
@@ -144,18 +158,19 @@ code {
 }
 
 abbr {
-    color: rgb(210,54,0);
+    color: rgb(210, 54, 0);
     text-decoration: underline;
     cursor: help;
 }
 
-hr{
+hr {
     margin: 1rem 0;
     border-color: #EEE;
     opacity: 0.1;
 }
 
-header, .main {
+header,
+.main {
     width: 100%;
     position: absolute;
 }
@@ -177,13 +192,13 @@ footer {
     /*text-shadow: 0px 0px 2px #BBB;*/
 }
 
-footer > a {
-    color: rgb(22,117,161);
+footer>a {
+    color: rgb(22, 117, 161);
     text-decoration: none;
 }
 
-footer > a:hover {
-    color: rgb(210,54,0);
+footer>a:hover {
+    color: rgb(210, 54, 0);
     text-decoration: underline;
 }
 
@@ -195,17 +210,17 @@ footer > a:hover {
     height: calc(100% - 4rem);
 }
 
-.main > .loading {
+.main>.loading {
     position: fixed;
     width: 100%;
     height: 100%;
     z-index: 1000;
     display: block;
-    background-color: rgb(254,251,245);
+    background-color: rgb(254, 251, 245);
     top: 0;
 }
 
-.main > .loading > span {
+.main>.loading>span {
     display: block;
     text-align: center;
     margin-top: 2rem;
@@ -213,11 +228,11 @@ footer > a:hover {
     font-size: 14px;
 }
 
-.main > .loading > span > .loading-img:before {
+.main>.loading>span>.loading-img:before {
     content: "\e603";
 }
 
-.main > .loading > span > .loading-img {
+.main>.loading>span>.loading-img {
     animation: anim-rotate 2s infinite linear;
     margin-right: 0.2rem;
     display: inline-block;
@@ -242,21 +257,21 @@ footer > a:hover {
     /*width: calc(100% - 17rem);*/
     float: right;
     height: 100%;
-    background-color: rgb(254,251,245);
+    background-color: rgb(254, 251, 245);
 }
 
-.main-right > #maincontent {
-    background-color: rgb(254,251,245);
+.main-right>#maincontent {
+    background-color: rgb(254, 251, 245);
 }
 
 .pull-right {
     float: right;
-    margin-top:10px;
-    margin-right:10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .pull-right span {
-    font-size:11px !important;
+    font-size: 11px !important;
 }
 
 .pull-left {
@@ -268,51 +283,51 @@ header {
     color: white;
 }
 
-header > .container {
-margin:0;
-padding:0;
+header>.container {
+    margin: 0;
+    padding: 0;
 }
 
-header > .container > .brand {
+header>.container>.brand {
     font-size: 32px;
-	/*font-weight:bold;*/
-    line-height:60px;
+    /*font-weight:bold;*/
+    line-height: 60px;
     /*color: white;*/
-	color:rgb(111,42,142);
+    color: rgb(111, 42, 142);
     cursor: default;
     /*background: rgb(148,143,225);*/
-    display:block;
-    width:17rem;
+    display: block;
+    width: 17rem;
     padding-right: 10px;
-    height:60px;
-    text-align:center;
-    float:left;
-    font-weight:900;
-    letter-spacing:3px;
+    height: 60px;
+    text-align: center;
+    float: left;
+    font-weight: 900;
+    letter-spacing: 3px;
 }
-header > .container > a[class="brand"]:after {
-    content:"®";
-    font-size:14px;
-    font-family:Tahoma;
+header>.container>a[class="brand"]:after {
+    content: "®";
+    font-size: 14px;
+    font-family: Tahoma;
     position: absolute;
-    top:-10px;
-    font-weight:normal !important;
+    top: -10px;
+    font-weight: normal !important;
 }
 
-header > .container > .brand-hostname {
+header>.container>.brand-hostname {
     font-size: 14px;
-    line-height:60px;
+    line-height: 60px;
     color: #555555;
     cursor: default;
-    display:block;
-    width:17rem;
+    display: block;
+    width: 17rem;
     padding-right: 10px;
-    height:60px;
-    text-align:left;
-    float:left;
-	margin-top: 7px;
-	font-weight:300;
-	margin-left: -15px;
+    height: 60px;
+    text-align: left;
+    float: left;
+    margin-top: 7px;
+    font-weight: 300;
+    margin-left: -15px;
 }
 
 .warning {
@@ -346,7 +361,7 @@ header > .container > .brand-hostname {
     color: red;
 }
 
-#maincontent > .container > div:nth-child(1).alert-message.warning > a {
+#maincontent>.container>div:nth-child(1).alert-message.warning>a {
     font: inherit;
     overflow: visible;
     text-transform: none;
@@ -378,19 +393,19 @@ li {
     list-style-type: none;
 }
 
-#maincontent > .container {
-    margin:40px 40px 40px 50px;
+#maincontent>.container {
+    margin: 40px 40px 40px 50px;
 }
 
 h1 {
-	color:rgb(133,129,216);
+    color: rgb(133, 129, 216);
     font-size: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
 }
 
 h2 {
-	color:rgb(210,54,0);
+    color: rgb(210, 54, 0);
     margin: 15px 0 0 0;
     font-size: 24px;
     padding-bottom: 10px;
@@ -398,20 +413,18 @@ h2 {
 }
 
 h3 {
-	color:rgb(22,117,161);
+    color: rgb(22, 117, 161);
     margin: 5px 0 0 0;
     font-size: 16px;
     padding-bottom: 10px;
 }
 
-h4 {
-
-}
+h4 {}
 
 label {
-	display: inline-block;  
-    padding: 0px 10px;  
-    vertical-align: middle;  
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: middle;
 }
 fieldset {
     margin: 10px 0 0 0;
@@ -428,16 +441,16 @@ fieldset {
 
     border-radius: 4px;
     background-color: #FFF;
-    box-shadow: 3px 3px 3px rgba(0,0,0,.05);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .05);
     border-radius: 4px;
     -webkit-overflow-scrolling: touch;
 }
 
-fieldset > legend {
+fieldset>legend {
     display: none !important;
 }
 
-fieldset > fieldset {
+fieldset>fieldset {
     margin: 0;
     padding: 0;
     border: none;
@@ -448,10 +461,10 @@ fieldset > fieldset {
     width: 100%;
     display: block;
     line-height: 1;
-    color: rgb(22,117,161);
+    color: rgb(22, 117, 161);
     font-size: 18px;
     padding-bottom: 10px;
-	font-weight:bold;
+    font-weight: bold;
 }
 
 table {
@@ -461,11 +474,16 @@ table {
     border: 0px solid #eee;
 }
 
-table > tbody > tr > td, table > tbody > tr > th, table > tfoot > tr > td, table > tfoot > tr > th, table > thead > tr > td, table > thead > tr > th {
+table>tbody>tr>td,
+table>tbody>tr>th,
+table>tfoot>tr>td,
+table>tfoot>tr>th,
+table>thead>tr>td,
+table>thead>tr>th {
     padding: 12px;
     line-height: 1.6;
     border-top: 0px dashed #EEE;
-	
+
     white-space: nowrap;
 }
 
@@ -477,37 +495,37 @@ table > tbody > tr > td, table > tbody > tr > th, table > tfoot > tr > td, table
     text-align: center;
 }
 
-.cbi-section-remove{
-	margin-bottom: 10px;
+.cbi-section-remove {
+    margin-bottom: 10px;
 }
 
-fieldset > table > tbody > tr:nth-of-type(odd) {
+fieldset>table>tbody>tr:nth-of-type(odd) {
     background-color: #f9f9f9;
 }
 
 /* fix progress bar */
-#swaptotal > div,
-#swapfree > div,
-#swapcache > div,
-#memfree > div,
-#membuff > div,
-#conns > div,
-#memcache > div,
-#memtotal > div {
+#swaptotal>div,
+#swapfree>div,
+#swapcache>div,
+#memfree>div,
+#membuff>div,
+#conns>div,
+#memcache>div,
+#memtotal>div {
     width: 100% !important;
-    border-color:#ccc !important;
-    height:20px !important;
-    color:#76838f !important;
+    border-color: #ccc !important;
+    height: 20px !important;
+    color: #76838f !important;
 }
 
-#swaptotal > div > div,
-#swapfree > div > div,
-#swapcache > div > div,
-#memfree > div > div,
-#membuff > div > div,
-#conns > div > div,
-#memcache > div > div,
-#memtotal > div > div {
+#swaptotal>div>div,
+#swapfree>div>div,
+#swapcache>div>div,
+#memfree>div>div,
+#membuff>div>div,
+#conns>div>div,
+#memcache>div>div,
+#memtotal>div>div {
     height: 1.4rem !important;
     background-color: #e4eaec !important;
 }
@@ -522,11 +540,11 @@ table table {
     border: none;
 }
 
-td > table > tbody > tr > td {
+td>table>tbody>tr>td {
     border: none;
 }
 
-.cbi-value-field > table > tbody > tr > td {
+.cbi-value-field>table>tbody>tr>td {
     border: none;
 }
 
@@ -554,7 +572,7 @@ td > table > tbody > tr > td {
     user-select: none;
     font-size: 14px;
     width: auto !important;
-	min-width: 80px;
+    min-width: 80px;
 }
 
 .cbi-button:hover,
@@ -563,16 +581,16 @@ td > table > tbody > tr > td {
     color: #fff;
     outline: 0;
     text-decoration: none;
-	background-color: rgb(45,135,177);
+    background-color: rgb(45, 135, 177);
 }
 
 .cbi-button:hover,
 .cbi-button:focus {
-    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 .cbi-button:active {
-    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 .cbi-button:disabled {
@@ -582,8 +600,8 @@ td > table > tbody > tr > td {
     box-shadow: none;
 }
 
-form.inline + form.inline,
-.cbi-button + .cbi-button {
+form.inline+form.inline,
+.cbi-button+.cbi-button {
     margin-left: 0.6rem;
 }
 
@@ -595,9 +613,9 @@ form.inline + form.inline,
 
 .cbi-button-reset:hover,
 .cbi-input-remove:hover,
-.cbi-button-remove:hover{
+.cbi-button-remove:hover {
     color: #fff !important;
-    background-color: rgb(83,100,115) !important;
+    background-color: rgb(83, 100, 115) !important;
 }
 
 .cbi-button-link,
@@ -609,8 +627,8 @@ form.inline + form.inline,
 .cbi-input-reload,
 .cbi-button-reload {
     color: #fff !important;
-    background-color: rgb(210,54,0) !important;
-    border-color: rgb(210,54,0) !important;
+    background-color: rgb(210, 54, 0) !important;
+    border-color: rgb(210, 54, 0) !important;
 }
 
 .cbi-button-link:hover,
@@ -620,27 +638,27 @@ form.inline + form.inline,
 .cbi-button-save:hover,
 .cbi-button-find:hover,
 .cbi-input-reload:hover,
-.cbi-button-reload:hover{
-	color: #fff !important;
-    background-color: rgb(168,43,0) !important;
-    border-color: rgb(168,43,0) !important;
+.cbi-button-reload:hover {
+    color: #fff !important;
+    background-color: rgb(168, 43, 0) !important;
+    border-color: rgb(168, 43, 0) !important;
 }
 
 .cbi-input-apply,
 .cbi-button-apply,
 .cbi-button-edit {
     color: #fff !important;
-    background-color: rgb(22,117,161);
+    background-color: rgb(22, 117, 161);
 }
 
 .cbi-input-reset,
 .cbi-button-remove {
     color: #fff !important;
-	background: #617486;
+    background: #617486;
 }
 
-.cbi-tab{
-	font-weight:bold;
+.cbi-tab {
+    font-weight: bold;
 }
 
 .a-to-btn {
@@ -654,54 +672,54 @@ form.inline + form.inline,
     background-color: #FFFFFF;
 }
 
-.cbi-tabmenu > li,
-.tabs > li {
+.cbi-tabmenu>li,
+.tabs>li {
     display: inline-block;
     padding: 0.9rem 0rem;
 }
 
-.cbi-tabmenu > li > a,
-.tabs > li > a {
+.cbi-tabmenu>li>a,
+.tabs>li>a {
     text-decoration: none;
     color: #76838f;
     padding: 0.9rem 1.5rem;
 }
 
-.tabs > li[class~="active"],
-.tabs > li:hover{
+.tabs>li[class~="active"],
+.tabs>li:hover {
     cursor: pointer;
-    border-bottom: 2px solid rgb(22,117,161);
+    border-bottom: 2px solid rgb(22, 117, 161);
 
 }
 
-.tabs > li[class~="active"] > a {
-	color:rgb(22,117,161) !important;
-	font-weight:bold;
+.tabs>li[class~="active"]>a {
+    color: rgb(22, 117, 161) !important;
+    font-weight: bold;
 }
 
-.tabs > li:hover {
+.tabs>li:hover {
     /*border-bottom: 0.18751rem solid rgb(133,129,216);*/
 }
 
 .cbi-tabmenu {
- 	border: 1px solid #e4eaec;
- 
-	//border-left: 1px solid #e4eaec;
+    border: 1px solid #e4eaec;
+
+    //border-left: 1px solid #e4eaec;
     //border-right: 1px solid #e4eaec;
- 
+
     background-color: #F7F7F7;
 }
 
-.cbi-tabmenu > li:hover {
+.cbi-tabmenu>li:hover {
     background-color: #F1F1F1;
 }
 
-.cbi-tabmenu > li[class~="cbi-tab"] {
+.cbi-tabmenu>li[class~="cbi-tab"] {
     background-color: white;
 }
 
-.cbi-tabmenu > li[class~="cbi-tab"] > a {
-	color:rgb(22,117,161) !important;
+.cbi-tabmenu>li[class~="cbi-tab"]>a {
+    color: rgb(22, 117, 161) !important;
 }
 
 .cbi-section-node-tabbed {
@@ -713,9 +731,9 @@ form.inline + form.inline,
 }
 
 .cbi-tabcontainer {
-    clear:both;
+    clear: both;
 }
-.cbi-tabcontainer > .cbi-value:nth-of-type(2n) {
+.cbi-tabcontainer>.cbi-value:nth-of-type(2n) {
     background-color: #f9f9f9;
 }
 
@@ -724,7 +742,7 @@ form.inline + form.inline,
     display: table-cell;
 }
 
-.cbi-value-helpicon > img {
+.cbi-value-helpicon>img {
     display: none;
 }
 
@@ -740,12 +758,12 @@ form.inline + form.inline,
 
 .cbi-value-title {
     word-wrap: break-word;
-    line-height:150%;
+    line-height: 150%;
     vertical-align: middle;
     /*padding:6px 10px;*/
-	padding-top:6px;
-	padding-bottom:6px;
-	padding-left:0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 0px;
     width: 23rem;
     float: left;
     text-align: left;
@@ -757,11 +775,11 @@ form.inline + form.inline,
     vertical-align: middle;
     display: inline-block;
     width: 100%;
-    border-top:0px dashed #e4eaec;
+    border-top: 0px dashed #e4eaec;
 }
 
-.cbi-section-table-descr > .cbi-section-table-cell,
-.cbi-section-table-titles > .cbi-section-table-cell {
+.cbi-section-table-descr>.cbi-section-table-cell,
+.cbi-section-table-titles>.cbi-section-table-cell {
     border: none;
 }
 
@@ -770,7 +788,7 @@ form.inline + form.inline,
 }
 
 .cbi-rowstyle-2 .cbi-button-up,
-.cbi-rowstyle-2 .cbi-button-down{
+.cbi-rowstyle-2 .cbi-button-down {
     background-color: #009b4c !important;
 }
 
@@ -781,8 +799,8 @@ form.inline + form.inline,
 /* desc */
 .cbi-section-descr,
 .cbi-map-descr {
-    margin-bottom:10px;
-    padding-left:5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
     font-size: small;
 }
 
@@ -827,7 +845,7 @@ form.inline + form.inline,
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.ifacebadge > img {
+.ifacebadge>img {
     float: right;
     margin-left: 0.3rem;
 }
@@ -865,8 +883,9 @@ form.inline + form.inline,
 }
 
 /* change */
-#wan4_i, #wan6_i {
-width:50px !important;
+#wan4_i,
+#wan6_i {
+    width: 50px !important;
 }
 
 .uci-change-list {
@@ -919,9 +938,9 @@ width:50px !important;
     float: left;
 }
 
-.uci-change-legend-label > ins,
-.uci-change-legend-label > del,
-.uci-change-legend-label > var {
+.uci-change-legend-label>ins,
+.uci-change-legend-label>del,
+.uci-change-legend-label>var {
     float: left;
     margin-right: 4px;
     width: 10px;
@@ -952,11 +971,11 @@ width:50px !important;
 .ifacebox {
     border: 0px solid #e4eaec;
     background-color: #fff;
-	border-radius:2px;
+    border-radius: 2px;
 }
 
 .ifacebox strong {
-    color:#f7f7f7;
+    color: #f7f7f7;
 }
 
 .cbi-image-button {
@@ -969,13 +988,13 @@ width:50px !important;
     cursor: pointer;
 }
 
-.zonebadge > .ifacebadge {
+.zonebadge>.ifacebadge {
     padding: 0.2rem 1rem;
     margin: 0.3rem;
     border: 1px solid #6C6C6C;
 }
 
-.zonebadge > input[type="text"] {
+.zonebadge>input[type="text"] {
     padding: 0.16rem 1rem;
     min-width: 10rem;
     margin-top: 0.3rem;
@@ -986,15 +1005,16 @@ width:50px !important;
     vertical-align: middle;
 }
 
-.cbi-section-table-row > .cbi-value-field .cbi-input-select {
+.cbi-section-table-row>.cbi-value-field .cbi-input-select {
     min-width: 7rem;
 }
 
-.cbi-section-create > .cbi-button-add {
+.cbi-section-create>.cbi-button-add {
     margin: 0.5rem;
 }
 
-div.cbi-value var, td.cbi-value-field var {
+div.cbi-value var,
+td.cbi-value-field var {
     font-style: italic;
     color: #0069D6;
 }
@@ -1017,7 +1037,7 @@ small {
     border-top: 1px solid #CCC;
 }
 
-#diag-rc-output > pre {
+#diag-rc-output>pre {
     background-color: #f5f5f5;
     display: block;
     padding: 8.5px;
@@ -1036,15 +1056,15 @@ input[name="nslookup"] {
     width: 80%;
 }
 
-header > .container > .pull-right > * {
+header>.container>.pull-right>* {
     position: relative;
     top: 0.45rem;
     cursor: pointer;
 }
 
-#xhr_poll_status > .label.success {
+#xhr_poll_status>.label.success {
     /*background-color: #14CE14;*/
-	background-color: rgb(0,171,232);
+    background-color: rgb(0, 171, 232);
 }
 
 .label {
@@ -1060,7 +1080,7 @@ header > .container > .pull-right > * {
     border-radius: 3px;
     text-shadow: none;
     text-decoration: none;
-	margin-right:20px;
+    margin-right: 20px;
 }
 
 .notice {
@@ -1068,14 +1088,14 @@ header > .container > .pull-right > * {
 }
 
 .showSide:before {
-    display:none;
-    color:#76838f;
+    display: none;
+    color: #76838f;
     content: "\e029";
     font-family: "advancedtomato" !important;
     font-weight: normal !important;
-    font-size:14px;
+    font-size: 14px;
     top: 18px;
-    left:10px;
+    left: 10px;
     position: relative;
     vertical-align: middle;
 
@@ -1094,15 +1114,15 @@ header > .container > .pull-right > * {
 }
 
 /* fix Main Login*/
-.node-main-login > .main > .main-left {
+.node-main-login>.main>.main-left {
     display: none;
 }
 
-.node-main-login > .main > .main-right {
+.node-main-login>.main>.main-right {
     width: 100%;
 }
 
-.node-main-login > .main fieldset {
+.node-main-login>.main fieldset {
     padding: 5px;
     margin-bottom: 1rem;
     display: inline;
@@ -1112,16 +1132,16 @@ header > .container > .pull-right > * {
     overflow: hidden;
 }
 
-.node-main-login > .main .cbi-value-title {
+.node-main-login>.main .cbi-value-title {
     width: 100% !important;
 }
 
-.node-main-login > .main #maincontent {
+.node-main-login>.main #maincontent {
 
     text-align: center;
 }
 
-.node-main-login > .main .container {
+.node-main-login>.main .container {
     display: inline-block;
     padding: 2rem 4rem;
     margin-top: 2rem !important;
@@ -1130,20 +1150,20 @@ header > .container > .pull-right > * {
     text-align: left;
 }
 
-.node-main-login > .main form > div:nth-last-child(1) {
+.node-main-login>.main form>div:nth-last-child(1) {
     float: left;
 }
 
-.node-main-login > .main .cbi-value {
+.node-main-login>.main .cbi-value {
     display: block;
 }
 
-.node-main-login > .main .cbi-value > * {
+.node-main-login>.main .cbi-value>* {
     display: inline-block !important;
 }
 
-.node-main-login > .main .cbi-input-user,
-.node-main-login > .main .cbi-input-password {
+.node-main-login>.main .cbi-input-user,
+.node-main-login>.main .cbi-input-password {
     min-width: 15rem;
 }
 
@@ -1155,75 +1175,75 @@ header > .container > .pull-right > * {
 
 /* fix status overview */
 
-.node-status-overview > .main fieldset:nth-child(4) td:nth-child(2) {
+.node-status-overview>.main fieldset:nth-child(4) td:nth-child(2) {
     white-space: normal;
 }
 
 /* fix status processes */
 
-.node-status-processes > .main table tr td:nth-child(3) {
+.node-status-processes>.main table tr td:nth-child(3) {
     white-space: normal;
 }
 
-.node-status-iptables > .main div > .cbi-map > form {
+.node-status-iptables>.main div>.cbi-map>form {
     margin: 2rem 2rem 0 0;
 }
 
 .cbi-map fieldset h3 {
- padding:10px 0;
- }
+    padding: 10px 0;
+}
 
 .cbi-map fieldset ul li {
-    background:#f7f7f7;
-    margin-right:0 !important;
+    background: #f7f7f7;
+    margin-right: 0 !important;
 }
 /* fix system reboot */
 
-.node-system-reboot > .main > .main-right p,
-.node-system-reboot > .main > .main-right h3 {
-}
+.node-system-reboot>.main>.main-right p,
+.node-system-reboot>.main>.main-right h3 {}
 
 /* fix Services  Network Shares*/
-.node-services-samba > .main .cbi-tabcontainer:nth-child(3) .cbi-value-title {
+.node-services-samba>.main .cbi-tabcontainer:nth-child(3) .cbi-value-title {
     margin-bottom: 1rem;
 }
 
-.node-services-samba > .main .cbi-tabcontainer:nth-child(3) .cbi-value-field {
+.node-services-samba>.main .cbi-tabcontainer:nth-child(3) .cbi-value-field {
     display: list-item;
 }
 
-.node-services-samba > .main .cbi-tabcontainer:nth-child(3) .cbi-value-description {
+.node-services-samba>.main .cbi-tabcontainer:nth-child(3) .cbi-value-description {
     padding-top: 1rem;
-    line-height:150%;
+    line-height: 150%;
 }
 
 /* fix System Software*/
-.node-system-packages > .main table tr td:nth-child(1) {
+.node-system-packages>.main table tr td:nth-child(1) {
     width: auto !important;
 }
 
-.node-system-packages > .main table tr td:nth-last-child(1) {
+.node-system-packages>.main table tr td:nth-last-child(1) {
     white-space: normal;
     font-size: small;
     color: #76838f;
 }
 
-.node-system-packages > .main .cbi-tabmenu > li > a, .tabs > li > a {
+.node-system-packages>.main .cbi-tabmenu>li>a,
+.tabs>li>a {
     padding: 0.5rem 1rem;
 }
 
-.node-system-packages > .main .cbi-value > pre {
+.node-system-packages>.main .cbi-value>pre {
     background-color: #eee;
     padding: 0.5rem;
     overflow: auto;
 }
 
-.cbi-tabmenu + .cbi-section {
+.cbi-tabmenu+.cbi-section {
     margin-top: 0;
 }
 
 /* fix network firewall*/
-.node-network-firewall > .main .cbi-section-table-row > .cbi-value-field .cbi-input-select {
+.node-network-firewall>.main .cbi-section-table-row>.cbi-value-field .cbi-input-select {
     min-width: 4rem;
 }
 
@@ -1241,19 +1261,19 @@ header > .container > .pull-right > * {
 
 #cbi-firewall-redirect table *,
 #cbi-network-switch_vlan table *,
-#cbi-firewall-zone table *{
+#cbi-firewall-zone table * {
     font-size: small;
 }
 
 #cbi-firewall-redirect table input[type="text"],
 #cbi-network-switch_vlan table input[type="text"],
-#cbi-firewall-zone table input[type="text"]{
+#cbi-firewall-zone table input[type="text"] {
     width: 5rem;
 }
 
 #cbi-firewall-redirect table select,
 #cbi-network-switch_vlan table select,
-#cbi-firewall-zone table select{
+#cbi-firewall-zone table select {
     min-width: 3.5rem;
 }
 
@@ -1265,7 +1285,7 @@ body.lang_pl.node-main-login .cbi-value-title {
 
 
 @media screen and (max-width: 1600px) {
- 
+
 
     .main-right {
         /*width: calc(100% - 15rem);*/
@@ -1277,7 +1297,7 @@ body.lang_pl.node-main-login .cbi-value-title {
         line-height: 1.5;
     }
 
-    header > .container > .pull-right > * {
+    header>.container>.pull-right>* {
         top: 0.35rem;
     }
 
@@ -1298,7 +1318,7 @@ body.lang_pl.node-main-login .cbi-value-title {
         font-size: 14px;
     }
 
-    .node-status-iptables > .main fieldset li > a {
+    .node-status-iptables>.main fieldset li>a {
         padding: 0.3rem 0.6rem;
     }
 }
@@ -1308,16 +1328,17 @@ body.lang_pl.node-main-login .cbi-value-title {
         overflow-x: auto;
     }
 
-	div[id^=cbi-table-] {
-		max-width:100px;
-		word-break: break-all; word-wrap:break-word;
-	}
+    div[id^=cbi-table-] {
+        max-width: 100px;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
 
     header {
         /*height: 3.5rem;*/
     }
 
-    header > .container {
+    header>.container {
         /*margin-top: 0.25rem;*/
     }
 
@@ -1326,12 +1347,13 @@ body.lang_pl.node-main-login .cbi-value-title {
         height: calc(100% - 3.5rem);
     }
 
- 
+
     .main-right {
         /*width: calc(100% - 17rem);*/
     }
 
-    .cbi-tabmenu > li > a, .tabs > li > a {
+    .cbi-tabmenu>li>a,
+    .tabs>li>a {
         padding: 0.2rem 0.5rem;
     }
 
@@ -1345,7 +1367,7 @@ body.lang_pl.node-main-login .cbi-value-title {
         width: 100% !important;
     }
 
- 
+
 }
 
 @media screen and (max-width: 992px) {
@@ -1354,7 +1376,7 @@ body.lang_pl.node-main-login .cbi-value-title {
         height: 3.5rem;
     }
 
-    header > .container > .brand {
+    header>.container>.brand {
         font-size: 18px;
         height: 3.5rem;
         line-height: 3.5rem;
@@ -1363,7 +1385,7 @@ body.lang_pl.node-main-login .cbi-value-title {
         padding-left: 5px;
         padding-right: 20px;
     }
- 
+
     .main-right {
         width: 100%;
     }
@@ -1391,32 +1413,32 @@ body.lang_pl.node-main-login .cbi-value-title {
         padding-right: 1rem;
     }
 
-    .node-network-diagnostics > .main .cbi-map fieldset > div * {
+    .node-network-diagnostics>.main .cbi-map fieldset>div * {
         width: 100% !important;
     }
 
-    .node-network-diagnostics > .main .cbi-map fieldset > div input[type="text"] {
+    .node-network-diagnostics>.main .cbi-map fieldset>div input[type="text"] {
         margin: 3rem 0 0 0 !important;
     }
 
-    .node-network-diagnostics > .main .cbi-map fieldset > div:nth-child(4) input[type="text"] {
+    .node-network-diagnostics>.main .cbi-map fieldset>div:nth-child(4) input[type="text"] {
         margin: 0 !important;
     }
 
-    .node-network-diagnostics > .main .cbi-map fieldset > div select,
-    .node-network-diagnostics > .main .cbi-map fieldset > div input[type="button"] {
+    .node-network-diagnostics>.main .cbi-map fieldset>div select,
+    .node-network-diagnostics>.main .cbi-map fieldset>div input[type="button"] {
         margin: 1rem 0 0 0;
     }
 
-    .node-network-diagnostics > .main .cbi-map fieldset > div {
+    .node-network-diagnostics>.main .cbi-map fieldset>div {
         width: 100% !important;
     }
 
-    #diag-rc-output > pre {
+    #diag-rc-output>pre {
         font-size: 1.2rem;
     }
 
-    .node-main-login > .main .cbi-value-title {
+    .node-main-login>.main .cbi-value-title {
         text-align: left;
     }
 }
@@ -1436,10 +1458,10 @@ body.lang_pl.node-main-login .cbi-value-title {
         margin: 0 -1rem;
     }
 
-    #maincontent > .container {
+    #maincontent>.container {
         margin: 0 1rem 1.5rem 1rem;
     }
- 
+
     .cbi-value-title {
         width: 100%;
         min-width: 0rem !important;
@@ -1449,45 +1471,48 @@ body.lang_pl.node-main-login .cbi-value-title {
         text-align: left;
     }
 
-    .cbi-value-field, .cbi-value-description {
+    .cbi-value-field,
+    .cbi-value-description {
         width: 100%;
     }
 
-    .cbi-value > .cbi-value-field {
+    .cbi-value>.cbi-value-field {
         display: inline-block;
     }
 
-    .cbi-tabmenu > li, .tabs > li {
+    .cbi-tabmenu>li,
+    .tabs>li {
         padding: 0.6rem 0rem;
     }
 
-    .cbi-tabmenu > li > a, .tabs > li > a {
+    .cbi-tabmenu>li>a,
+    .tabs>li>a {
         padding: 0.2rem 0.3rem;
         font-size: 0.9rem;
     }
 
-    .cbi-page-actions > div > input {
+    .cbi-page-actions>div>input {
         display: none;
     }
 
-    .node-main-login > .main .container {
+    .node-main-login>.main .container {
         padding: 0.5rem 1rem 2rem 1rem;
     }
 
-    .node-main-login > .main .cbi-value {
+    .node-main-login>.main .cbi-value {
         padding: 0;
     }
 
-    .node-main-login > .main form > div:nth-last-child(1) {
+    .node-main-login>.main form>div:nth-last-child(1) {
         margin-top: 2rem;
     }
 
-    .node-main-login > .main .cbi-value-title {
+    .node-main-login>.main .cbi-value-title {
         width: 100% !important;
         font-size: 1.2rem;
     }
 
-    .node-main-login > .main fieldset {
+    .node-main-login>.main fieldset {
         margin: 0;
         padding: 0.5rem;
     }
@@ -1496,7 +1521,7 @@ body.lang_pl.node-main-login .cbi-value-title {
         /*font-size: 2rem;*/
     }
 
-    .tabs > li > a {
+    .tabs>li>a {
         font-size: 0.9rem;
     }
 
@@ -1514,15 +1539,15 @@ body.lang_pl.node-main-login .cbi-value-title {
         padding-bottom: 1rem;
     }
 
-    .node-system-packages > .main .cbi-value.cbi-value-last > div {
+    .node-system-packages>.main .cbi-value.cbi-value-last>div {
         width: 100% !important;
     }
 
-    .node-system-packages > .main .cbi-value .cbi-value-field input {
+    .node-system-packages>.main .cbi-value .cbi-value-field input {
         width: 100%;
     }
 
-    .node-status-iptables > .main div > .cbi-map > form {
+    .node-status-iptables>.main div>.cbi-map>form {
         position: static !important;
         margin: 0 0 2rem 0;
         padding: 2rem;
@@ -1540,12 +1565,12 @@ body.lang_pl.node-main-login .cbi-value-title {
         -webkit-overflow-scrolling: touch;
     }
 
-    .node-status-iptables > .main div > .cbi-map > form input[type="submit"]{
+    .node-status-iptables>.main div>.cbi-map>form input[type="submit"] {
         width: 100% !important;
         margin: 0;
     }
 
-    .node-status-iptables > .main div > .cbi-map > form input[type="submit"] + input[type="submit"]{
+    .node-status-iptables>.main div>.cbi-map>form input[type="submit"]+input[type="submit"] {
         margin-top: 1rem;
     }
 }
