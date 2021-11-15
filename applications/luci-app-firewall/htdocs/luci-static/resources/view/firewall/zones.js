@@ -166,7 +166,7 @@ return view.extend({
 
 			return null;
 		};
-		
+
 		o = s.taboption('general', form.Flag, 'fullcone', _('Full Cone'));
 		o.editable = true;
 		o.depends('masq', '1');
